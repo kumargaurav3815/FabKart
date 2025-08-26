@@ -14,7 +14,7 @@ export const registerUser = createAsyncThunk(
 
   async (formData) => {
     const response = await axios.post(
-      "https://fabkart.onrender.com//api/auth/register",
+      "https://fabkart.onrender.com/api/auth/register",
       formData,
       {
         withCredentials: true,
